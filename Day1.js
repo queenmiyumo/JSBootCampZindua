@@ -8,7 +8,6 @@ function calculateArea(length, width) {
     return perimeter;
   }
   
-  // Example usage
   var length = 9;
   var width = 15;
   
