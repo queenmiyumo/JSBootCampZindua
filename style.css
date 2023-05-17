@@ -1,0 +1,37 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #display {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #060606;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aaa;
+  }
+  
+  .operator {
+    background-color: #1b5dec;
+    font-weight: bold;
+  }
+  
